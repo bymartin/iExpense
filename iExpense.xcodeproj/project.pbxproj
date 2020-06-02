@@ -13,6 +13,8 @@
 		4C2F1660247DB99400CAFF4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2F165F247DB99400CAFF4B /* Assets.xcassets */; };
 		4C2F1663247DB99400CAFF4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2F1662247DB99400CAFF4B /* Preview Assets.xcassets */; };
 		4C2F1666247DB99400CAFF4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2F1664247DB99400CAFF4B /* LaunchScreen.storyboard */; };
+		4C7F023B2486AE770016BFDE /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F023A2486AE770016BFDE /* ExpenseItem.swift */; };
+		4C7F023D2486BC8B0016BFDE /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F023C2486BC8B0016BFDE /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4C2F1662247DB99400CAFF4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C2F1665247DB99400CAFF4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C2F1667247DB99400CAFF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C7F023A2486AE770016BFDE /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		4C7F023C2486BC8B0016BFDE /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				4C2F1659247DB99200CAFF4B /* AppDelegate.swift */,
 				4C2F165B247DB99200CAFF4B /* SceneDelegate.swift */,
 				4C2F165D247DB99200CAFF4B /* ContentView.swift */,
+				4C7F023C2486BC8B0016BFDE /* AddView.swift */,
+				4C7F023A2486AE770016BFDE /* ExpenseItem.swift */,
 				4C2F165F247DB99400CAFF4B /* Assets.xcassets */,
 				4C2F1664247DB99400CAFF4B /* LaunchScreen.storyboard */,
 				4C2F1667247DB99400CAFF4B /* Info.plist */,
@@ -148,7 +154,9 @@
 			files = (
 				4C2F165A247DB99200CAFF4B /* AppDelegate.swift in Sources */,
 				4C2F165C247DB99200CAFF4B /* SceneDelegate.swift in Sources */,
+				4C7F023D2486BC8B0016BFDE /* AddView.swift in Sources */,
 				4C2F165E247DB99200CAFF4B /* ContentView.swift in Sources */,
+				4C7F023B2486AE770016BFDE /* ExpenseItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
